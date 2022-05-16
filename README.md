@@ -18,8 +18,9 @@ Images data
 - [NFT art collection](https://www.kaggle.com/datasets/vepnar/nft-art-dataset) collected on [nftshowroom.com](https://nftshowroom.com/) on March 29, 2021.
 
 ### Protocol:
-Balance samples datasets in order to have same number of images for each collection. To avoid bias, select samples randomly within each collection. 
-Similarly, each sample images should be encoded in the same definition. We will reduce the size of thje larger images to the size of the smaller ones.
+- Balance samples datasets in order to have same number of images for each collection. To avoid bias, select samples randomly within each collection. 
+- Similarly, each sample images should be encoded in the same definition. We will reduce the size of thje larger images to the size of the smaller ones.
+- Concatenate image data with last price of sale. 
 
 
 ### Literature:
