@@ -1,4 +1,4 @@
-# NFT_classification with visual feature extraction by computer vision
+# NFT classification with visual feature extraction
 This repository contains all the information, code and data about the NFT classification with visual feature extraction by computer vision, started as a group project at the Machine Learning degree of [opencampus.sh](https://opencampus.sh). Team mates are: Lennert Jessen, Julien Carbonnell.
 
 ### Project Description:
