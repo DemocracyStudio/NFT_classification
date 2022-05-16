@@ -31,7 +31,6 @@ Similarly, each sample images should be encoded in the same definition. We will 
 2020
 - [EfficientDet: Scalable and Efficient Object Detection](https://paperswithcode.com/paper/efficientdet-scalable-and-efficient-object)
 - [Compounding the Performance Improvements of Assembled Techniques in a Convolutional Neural Network](https://paperswithcode.com/paper/compounding-the-performance-improvements-of)
-- [Fashionpedia: Ontology, Segmentation, and an Attribute Localization Dataset](https://paperswithcode.com/paper/fashionpedia-ontology-segmentation-and-an)
 - [Improved Few-Shot Visual Classification](https://paperswithcode.com/paper/improved-few-shot-visual-classification)
 
 2015
