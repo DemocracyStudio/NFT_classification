@@ -21,6 +21,11 @@ Images data
 - Balance samples datasets in order to have same number of images for each collection. To avoid bias, select samples randomly within each collection. 
 - Similarly, each sample images should be encoded in the same definition. We will reduce the size of thje larger images to the size of the smaller ones.
 - Concatenate image data with last price of sale. 
+Ideas from the meeting on 27.05.22
+- Build a CNN to classify images. Let the computer pick the classification rather than giving a collections a priori.
+- Train the CNN with the apes dataset and then test it on the other collections
+- Maybe use transfer learning to train on the other collections
+- We can use the AlexNet architecture
 
 
 ### Literature:
