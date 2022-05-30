@@ -26,7 +26,12 @@ Images data
 - Train the CNN with the apes dataset and then test it on the other collections
 - Maybe use transfer learning to train on the other collections
 - We can use the AlexNet architecture
+- Meeting on 30.06.22:
+- Not use AlexNet since it needs labels. We will look for other models like k-means.
 
+### Timeline:
+- 3.6. Decide on a model. Finish data preparation.
+- 10.6. Start learning the model
 
 ### Literature:
 2021
