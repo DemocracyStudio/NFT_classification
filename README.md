@@ -31,7 +31,7 @@ Images data
 
 ### Timeline:
 - 3.6. Decide on a model. Finish data preparation.
-- 10.6. Start learning the model
+- 10.6. Start building the model
 
 ### Literature:
 2021
