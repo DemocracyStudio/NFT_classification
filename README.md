@@ -9,13 +9,13 @@ As a nascent market of $50B capitalization, NFT sales remain highly volatile and
 A pitch deck is available [here](https://docs.google.com/presentation/d/1K-IZk7SBP9A4UM-96AAbhkHJ-ttUYWxnUfznlGXn_rY/edit?usp=sharing). 
 
 ### Datasets:
-Our model aims to classify NFTs using visual features, which haven't been done so far, or at least no publication nor pre-trained model could be found on this topic. We will first train our model on existing NFT datasets publicly shared on Kaggle, before deploying it on a marketplace API. The following datasets of NFT images have been shared publicly on Kaggle:
+There are more NFTs on NFT marketplaces today than there were websites in 2010. Covering the whole available NFTs' data would have been impossible. Our model ambitions to experiment an undiscovered approach to NFT sales forecasting by using feature extraction on images, which induces some computational costs due to a high data size. 
 
-Images data
-- [Witches](https://www.kaggle.com/datasets/harrywang/crypto-coven) collected on opensea.com on April 22, 2022.
-- [CryptoPunks](https://www.kaggle.com/datasets/tunguz/cryptopunks) collected on [larvalabs.com](https://larvalabs.com/cryptopunks) on October 8, 2021.
-- [Bored Apes](https://www.kaggle.com/datasets/stanleyjzheng/bored-apes-yacht-club) collected on opensea.com (https://opensea.com) on July 14, 2021.
-- [NFT art collection](https://www.kaggle.com/datasets/vepnar/nft-art-dataset) collected on [nftshowroom.com](https://nftshowroom.com/) on March 29, 2021.
+To collect full datasets including images + last sale prices, we combined existing datasets Kaggle, with OpenSea API requests, and data scraping with selenium. The resulting datasets are the followings:
+- [Crypto Coven Witches](https://www.kaggle.com/datasets/harrywang/crypto-coven) collected on opensea.com on April 22, 2022.
+- [CryptoPunks](https://www.kaggle.com/datasets/tunguz/cryptopunks) sales collected on [larvalabs.com](https://larvalabs.com/cryptopunks) on October 8, 2021, and images on June 2, 2022.
+- [Bored Apes](https://www.kaggle.com/datasets/stanleyjzheng/bored-apes-yacht-club) images collected on opensea.com (https://opensea.com) on July 14, 2021 (images) and historical sales on May 22, 2022.
+- [Solana NFT Collections](https://www.kaggle.com/datasets/eyenpi/solana-nft-collections?select=Solana+NFT+Collections) sales collected on [magiceden.io](https://magiceden.io) on April 18, 2021 and images collected on June 1, 2022.
 
 ### Protocol:
 - Balance samples datasets in order to have same number of images for each collection. To avoid bias, select samples randomly within each collection. 
