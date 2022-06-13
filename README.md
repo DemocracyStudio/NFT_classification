@@ -32,6 +32,8 @@ To collect full datasets including images + last sale prices, we combined existi
 ### Timeline:
 - 3.6. Decide on a model. Finish data preparation.
 - 10.6. Start building the model
+- 17.6. Compare the models and pick one to streamline
+- 27.6. Testing and preparing the final protocol and presentation
 
 ### Literature:
 2021
