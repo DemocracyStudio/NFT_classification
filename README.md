@@ -1,4 +1,4 @@
-# NFT classification with visual feature extraction
+# NFT similarity search engine with visual feature extraction using VGG16 Convolutional Neural Network
 This repository contains all the information, code and data about the NFT classification with visual feature extraction by computer vision, started as a group project at the Machine Learning degree of [opencampus.sh](https://opencampus.sh). Team mates are: Lennert Jessen, Julien Carbonnell.
 
 ### Project Description:
