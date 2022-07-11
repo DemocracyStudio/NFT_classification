@@ -13,29 +13,17 @@ A pitch deck is available [here](https://docs.google.com/presentation/d/1K-IZk7S
 ### Datasets:
 There are more NFTs on NFT marketplaces today than there were websites in 2010. Covering the whole available NFTs' data would have been impossible. Our model ambitions to experiment an undiscovered approach to NFT sales forecasting by using feature extraction on images, which induces some computational costs due to a high data size. 
 
-To collect full datasets including images + last sale prices, we combined existing datasets Kaggle, with OpenSea API requests, and data scraping with selenium. The resulting datasets are the followings:
-- [Crypto Coven Witches](https://www.kaggle.com/datasets/harrywang/crypto-coven) collected on opensea.com on April 22, 2022.
-- [CryptoPunks](https://www.kaggle.com/datasets/tunguz/cryptopunks) sales collected on [larvalabs.com](https://larvalabs.com/cryptopunks) on October 8, 2021, and images on June 2, 2022.
+To collect full datasets including images, we combined existing datasets Kaggle, with OpenSea API requests, and data scraping with selenium. Here is a link to the kaggle datasets:
 - [Bored Apes](https://www.kaggle.com/datasets/stanleyjzheng/bored-apes-yacht-club) images collected on opensea.com (https://opensea.com) on July 14, 2021 (images) and historical sales on May 22, 2022.
 - [Solana NFT Collections](https://www.kaggle.com/datasets/eyenpi/solana-nft-collections?select=Solana+NFT+Collections) sales collected on [magiceden.io](https://magiceden.io) on April 18, 2021 and images collected on June 1, 2022.
 
 ### Protocol:
-- Balance samples datasets in order to have same number of images for each collection. To avoid bias, select samples randomly within each collection. 
-- Similarly, each sample images should be encoded in the same definition. We will reduce the size of thje larger images to the size of the smaller ones.
-- Concatenate image data with last price of sale. 
-- Ideas from the meeting on 27.05.22:
-- Build a CNN to classify images. Let the computer pick the classification rather than giving a collections a priori.
-- Train the CNN with the apes dataset and then test it on the other collections
-- Maybe use transfer learning to train on the other collections
-- We can use the AlexNet architecture
-- Meeting on 30.06.22:
-- Not use AlexNet since it needs labels. We will look for other models like k-means.
-
-### Timeline:
-- 3.6. Decide on a model. Finish data preparation.
-- 10.6. Start building the model
-- 17.6. Compare the models and pick one to streamline
-- 27.6. Testing and preparing the final protocol and presentation
+- Collect datasets
+- Resize the images to 128x128 pixels
+- Pixel-to-pixel comparison with Euclidean Distance (based on colors)
+- Visual feature extraction with VGG16 CNN (based on shapes) and Euclidean Distance again
+- Unlabelled image clustering with K-Nearest Neighbor on VGG16 output
+- Compare the similarity searches methods
 
 ### Literature:
 2021
